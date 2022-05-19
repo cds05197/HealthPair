@@ -1,0 +1,53 @@
+.conitem {
+    width: 30%;
+    height: 30%;
+    margin: 1.2%;
+    border: 1px solid;
+    display: flexbox;
+    font-size: 120%;
+  }
+  .Content {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+  }
+  .proimg {
+    width: 70%;
+    height: 60%;
+    padding-top: 5%;
+  }
+  .info {
+    display: flex;
+    justify-content: left;
+    height: 20%;
+    margin-left: -5%;
+  }
+  .name {
+    display: inline-block;
+    line-height: 200%;
+    width: 50%;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .add {
+    display: inline-block;
+    float: right;
+    padding-left: 5%;
+    width: 25%;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 300%;
+  }
+  .cate {
+    display: inline-block;
+    float: right;
+    width: 15%;
+    padding-right: 3%;
+    padding-left: 1%;
+    font-size: 0.8em;
+    font-weight: bold;
+    line-height: 300%;
+  }

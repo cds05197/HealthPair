@@ -1,0 +1,54 @@
+
+.list{
+    width: 90%;
+    height: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-bottom: 2px solid black;
+}
+.pro {
+    width: 20%;
+    padding-left: 3%;
+}
+.proimg {
+    width: 100%;
+    padding-top: 3%;
+}
+.info {
+    width: 54%;
+    display: block;
+    padding-left: 3%;
+    padding-top: 0.5%;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-align: left;
+    line-height: 165%;
+    vertical-align: middle;
+}
+.infolist {
+    margin: 2% 2%;
+}
+.mento {
+    width: 13%;
+    line-height: 300%;
+    vertical-align: middle;
+    font-size: 2.9em;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    background-color: blanchedalmond;
+}
+.menty {
+    width: 13%;
+    line-height: 300%;
+    vertical-align: middle;
+    font-size: 2.9em;
+    font-weight: bold;
+    padding-top: 2%;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    background-color: aquamarine;
+}

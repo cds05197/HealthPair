@@ -1,0 +1,21 @@
+.Footer {
+    display: flex;
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    position: sticky;
+    display: flexbox;
+    bottom: 0%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .footitem {
+    width: 25%;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 5% 5%;
+    text-decoration-line: none;
+    color: black;
+  }
