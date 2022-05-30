@@ -1,0 +1,49 @@
+.Footer {
+    display: flex;
+    width: 90%;
+    height: 10%;
+    position: sticky;
+    display: flex;
+    bottom: 0%;
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+  }
+  ul {
+    list-style: none;
+    padding: 3% 3% 3% 3%;
+    margin-left: 0%;
+  }
+  li {
+    width: 25%;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding : 3% 3% 3% 3%;
+    
+  }
+  a {
+    color: black;
+    text-decoration-line: none;
+  }
+  
+  
+
+
+
+  @media (max-width: 600px)
+{
+  .Footer {
+    width: 90%;
+    margin-left: 0;
+  }
+  li {
+    font-size: 0.7em;
+    height: 1em;
+    padding: 4% 0% 8% 0%;
+  }
+  ul {    
+    padding : 0% 5% 0% 5%;
+  }
+}

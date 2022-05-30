@@ -1,0 +1,13 @@
+.commu {
+    width: 800px;
+    height: 800px;
+    font-size: 4em;
+}
+@media (max-width: 600px)
+{
+    .commu {
+        margin-top: 70%;
+        width: 100vw;
+        height: 700px;
+    }
+}

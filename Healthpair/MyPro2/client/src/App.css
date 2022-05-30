@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'adobaonlyR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/adobaonlyR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body, html {
+  font-family: 'adobaonlyR';
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.selected {
+  background-color: #0d47a1;
+  color: white;
+  padding : 9% 9% 9% 9%;
+  border-radius: 15%;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (max-width: 600px)
+{
+  .selected {
+    background-color: #0d47a1;
+    color: white;
+    padding : 14% 13% 14% 14%;
+    border-radius: 15%;
+  }
+}
+
